@@ -1,0 +1,564 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.fade-appear {
+    opacity: 0;
+    z-index: 1;
+}
+
+.fade-appear.fade-appear-active {
+    opacity: 1;
+    transition: opacity 300ms linear;
+}
+
+
+.heroBanner {
+    background-color: var(--palette-dark);
+    padding: 4rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroBannerDark {
+    padding: 4rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.indexHeroDiagrambanner {
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.diffSection {
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.heading {
+    color: var(--palette-black);
+}
+
+.heading2 {
+    color: var(--palette-black);
+    font-size: 36px;
+}
+
+.heading3 {
+    color: var(--palette-white);
+    text-shadow: -2px 2px 5px var(--palette-black);
+}
+
+.cardtitle {
+    color: var(--palette-black);
+    transition: all .2s ease-in-out;
+}
+
+.userCardTitle {
+    color: #de3c4b;
+}
+
+.getstartedCard {
+    color: var(--ifm-font-color-base);
+    padding: 2rem 0;
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.indexHeroDiagram {
+    max-height: 60em;
+    height: 100%;
+    width: 100%;
+}
+
+.section1title {
+    text-shadow: -2px 2px 5px var(--palette-black);
+    margin-top: 20px;
+    font-size: 5em;
+}
+
+.imgSection1 {
+    display: inline-block;
+    /* margin: calc( var(--ifm-spacing-vertical) * 1) 0; */
+    /* max-height: 25em; */
+    align-self: center;
+    width: 110%;
+}
+
+.cardimagestyle {
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+.cardimagestyle:hover {
+    transform: scale(1.05)
+}
+
+.diffCardStyle {
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 180px;
+    transition: all .2s ease-in-out;
+}
+
+.diffCardStyle:hover {
+    transform: scale(1.05)
+}
+
+.react-icons {
+    vertical-align: middle;
+  }
+
+.UserCardStyle {
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+    transition: all .2s ease-in-out;
+}
+
+.UserCardStyle:hover {
+    transform: scale(1.05)
+}
+
+.imgBlocks {
+    display: inline-flex;
+    margin: calc( var(--ifm-spacing-vertical) * 1) 0;
+    max-height: 25em;
+    align-items: center;
+    height: 300px;
+    border-radius: 20px;
+    width: auto;
+}
+
+.unixHeroTitle {
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+.unixHeroSubTitle {
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    padding: 10px 20px;
+    color: var(--ifm-link-color);
+}
+
+.imgUnix {
+    background: var(--palette-alabaster);
+    color: var(--palette-hunter-green);
+    display: inline-flex;
+    margin: calc( var(--ifm-spacing-vertical) * 1) 0;
+    max-width: 30em;
+    align-items: center;
+    height: 400px;
+    width: auto;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgCpu {
+    background: var(--ifm-hero-background-color);
+    height: auto;
+    width: 25%;
+    transition: all .2s ease-in-out;
+}
+
+.imgCpu:hover {
+    transform: scale(1.1);
+}
+
+.imgInterfaces {
+    margin: calc( var(--ifm-spacing-vertical) * 1) 0;
+    align-items: center;
+    width: 50%;
+    transition: all .2s ease-in-out;
+}
+
+.imgInterfaces:hover {
+    transform: scale(1.1);
+}
+
+.imgSystemOptions {
+    margin: calc( var(--ifm-spacing-vertical) * 1) 0;
+    max-height: 40em;
+    align-items: center;
+    width: 60%;
+    transition: all .2s ease-in-out;
+}
+
+.imgSystemOptions:hover {
+    transform: scale(1.1);
+}
+
+.imgGrade {
+    margin: calc( var(--ifm-spacing-vertical) * 1) 0;
+    /* max-height: 40em; */
+    align-items: center;
+    width: 25%;
+    transition: all .2s ease-in-out;
+}
+
+.imgGrade:hover {
+    transform: scale(1.1);
+}
+
+.imgAIoT {
+    margin: calc( var(--ifm-spacing-vertical) * 1) 0;
+    max-height: 40em;
+    align-items: center;
+    width: 60%;
+    transition: all .2s ease-in-out;
+}
+
+.imgAIoT:hover {
+    transform: scale(1.1);
+}
+
+.imgGpuVpuNpu {
+    margin: calc( var(--ifm-spacing-vertical) * 1) 0;
+    max-height: 40em;
+    align-items: center;
+    width: 50%;
+    transition: all .2s ease-in-out;
+}
+
+.imgGpuVpuNpu:hover {
+    transform: scale(1.1);
+}
+
+.indexTagBanner {
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.indexTagDiagram {
+    margin: calc( var(--ifm-spacing-vertical) * 1) 0;
+    max-height: 30em;
+    height: auto;
+    width: 100%;
+}
+
+@media screen and (max-width: 966px) {
+    .heroBanner {
+        padding: 2rem;
+    }
+    .imgTagline {
+        height: auto;
+        width: auto;
+    }
+    .youTubeVid {
+        width: auto;
+        height: auto;
+    }
+}
+
+.iconHeader {
+    display: inline-flex;
+}
+
+.demoButton {
+    margin-bottom: 20px;
+    box-shadow: -2px 2px 2px var(--palette-black);
+    display: inline-flex;
+    line-height: 1.2em;
+    color: var(--ifm-font-color-base);
+    background: var(--palette-white); 
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 18px 36px;
+    transition: all .2s ease-in-out;  
+}
+
+.demoButton:hover {
+    color: var(--ifm-font-color-base);
+    transform: scale(1.05);
+}
+
+.specsTable {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: 1px solid var(--ifm-font-color-base);
+}
+
+.specsInfo {
+    font-size: 16px;
+    text-align: left;
+}
+
+.getStartedButton {
+    margin-bottom: 20px;
+    display: inline-flex;
+    line-height: 1.2em;
+    color: var(--ifm-font-color-base);
+    background: var(--palette-white); 
+    text-transform: uppercase;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 18px 36px;
+    transition: all .2s ease-in-out;  
+}
+
+.getStartedButton:hover {
+    background: var(--palette-hunter-green);
+    color: var(--palette-white);
+    transform: scale(1.1);
+}
+
+.componentsButton {
+    display: inline-flex;
+    line-height: 1.2em;
+    color: var(--ifm-font-color-base);
+    background: var(--palette-white); 
+    text-decoration: none !important;
+    text-transform: uppercase;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 8px;
+    border-width: 3px;
+    border-color: var(--ifm-link-color);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 18px 36px;
+}
+
+.ctaButton {
+    box-shadow: -2px 2px 5px var(--palette-black);
+    height: 150%;
+    margin-top: 85px;
+    display: inline-flex;
+    line-height: 1.2em;
+    color: var(--ifm-font-color-base);
+    background: var(--palette-white); 
+    text-decoration: none !important;
+    text-transform: uppercase;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 8px;
+    /* border-width: 3px; */
+    /* border-color: var(--ifm-link-color); */
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 36px;
+
+    /* overflow: hidden; 
+    border: .2em solid blue; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;     */
+}
+
+.ctaButton:hover {
+    transform: scale(1.05);
+}
+
+/* The typing effect */
+/* @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  } */
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--palette-black); }
+  }
+
+.scrollButton {
+    display: inline-flex;
+    line-height: 1.2em;
+    color: var(--ifm-font-color-base);
+    background: var(--palette-white); 
+    text-decoration: none !important;
+    text-transform: uppercase;
+    /* transition: background 0.3s, color 0.3s; */
+    border-radius: 200px;
+    border-width: 2px;
+    border-color: var(--ifm-link-color);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 16px 16px;
+}
+ 
+.componentsButton:hover {
+    text-decoration: none !important;
+    background: var(--palette-white);
+    color: var(--ifm-link-color);
+    border-width: 2px;
+}
+
+.ctaButton:hover {
+    color: var(--palette-black);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.components {
+    background: var(--palette-white);
+    color: var(--palette-dark);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.gradebg {
+    background: var(--palette-white);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.getstarted {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.userIdentity {
+    background: var(--palette-white);
+    color: var(--palette-dark);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.tagLine {
+    /* background: linear-gradient(var(--palette-white), var(--palette-alabaster), var(--palette-alabaster2)); */
+    background: var(--palette-alabaster);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.scrollbg {
+    background: var(--palette-alabaster);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.features {
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.featureImage {
+    height: 200px;
+    width: 200px;
+}
+
+.youTubeVid {
+    width: auto;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.cardCols {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.cardTitle {
+    line-height: 1.2em;
+    text-align: left;
+    text-decoration: none !important;
+    transition: background 0.3s, color 0.3s;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 24px;
+}
+
+.cardText {
+    display: inline-block;
+    line-height: 1.2em;
+    text-align: left;
+    align-items: center;
+    text-decoration: none !important;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 8px;
+    border-width: 2px;
+    font-size: 14px;
+    padding: 12px 24px;
+}
+
+.cardStyle {
+    width: '15rem';
+    border-radius: 8px;
+}
+
+.cardBody {
+    display: inline-block;
+    line-height: 1.2em;
+    text-align: left;
+    align-items: center;
+    text-decoration: none !important;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 8px;
+    border-width: 2px;
+    font-size: 14px;
+    padding: 8px 16px;
+}

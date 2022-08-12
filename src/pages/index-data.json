@@ -1,0 +1,29 @@
+{
+    "sectionInspiration": {
+        "Heading": "Our Inspiration: Raspberry Pi",
+        "SubHeading": "This is a work in progress to create an enterprise substitute to Raspberry Pi which depends heavily on user feedback for its growth.",
+        "ButtonText": "Give Feedback"
+
+    },
+    "sectionImpact": {
+        "Heading1": "We",
+        "Heading2": "Projects that bring positive Impact",
+        "SubHeading1": "For projects that bring positive changes to the world, We got your back!",
+        "SubHeading2": "Get fast track, Enterprise level support at a discount.",
+        "CardData": {
+            "Card1": {
+                "Heading": "Get Professional Support",
+                "SubHeading": ""
+            },
+            "Card2": {
+                "Heading": "Faster design process",
+                "SubHeading": ""
+            },
+            "Card3": {
+                "Heading": "Discounted Rates",
+                "SubHeading": ""
+            }
+        }
+    }
+
+}

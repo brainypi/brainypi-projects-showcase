@@ -1,0 +1,10 @@
+**/build
+*.0
+*.so
+*.un~	
+**/.vscode
+
+**/build/
+**/yarn.lock
+**/node_modules
+**/.docusaurus
