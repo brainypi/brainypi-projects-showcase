@@ -5,11 +5,12 @@ const {
 module.exports = {
     title: 'BrainyPi Projects',
     tagline: 'BrainyPi Projects Showcase',
-    url: 'https://brainypi.com',
-    baseUrl: '/',
+    url: 'https://brainypi.github.io',
+    baseUrl: '/brainypi-projects-showcase/',
     favicon: 'img/favicon.ico',
-    organizationName: 'brainypi', // Usually your GitHub org/user name.
+    organizationName: 'brainypi.github.io', // Usually your GitHub org/user name.
     projectName: 'brainypi-projects-showcase', // Usually your repo name.
+    trailingSlash: false,
     onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
     onDuplicateRoutes: 'warn',
