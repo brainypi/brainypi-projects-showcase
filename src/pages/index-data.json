@@ -1,86 +1,86 @@
 {
     "projectList": [
         {
-            "title": "Script for installing an Emulation Station",
-            "description": "This script intends to install an Emulation station (RetroPie) onto BrainyPi.",
+            "title": "Emulation Station",
+            "description": "RetroPie allows you to turn your Raspberry Pi into a retro-gaming machine. It builds upon Raspbian, EmulationStation, RetroArch and many other projects to enable you to play Arcade, home-console, and classic games with the minimum set-up.",
             "thumbnail": "img/default-image.png",
             "link": "docs/projects/48903"
         },
         {
-            "title": "Script for installing Prometheus",
-            "description": "This script intends to install Prometheus onto BrainyPi.",
+            "title": "Prometheus",
+            "description": "Prometheus is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts when specified conditions are observed.",
             "thumbnail": "img/default-image.png",
             "link": "docs/projects/48900"
         },
         {
-            "title": "Script for installing Privoxy",
-            "description": "This script intends to install Privoxy onto BrainyPi.",
+            "title": "Privoxy",
+            "description": "A non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page data and HTTP headers, controlling access, ads and other junk. It has a flexible configuration and can be customized to your needs.",
             "thumbnail": "img/default-image.png",
             "link": "docs/projects/48909"
         },
         {
-            "title": "Script for installing AnyDesk",
-            "description": "This script intends to install AnyDesk on BrainyPi.",
+            "title": "AnyDesk",
+            "description": "Allows access to any device at any time, from anywhere. Secure and fast.",
             "thumbnail": "img/default-image.png",
             "link": "docs/projects/48898"
         },
         {
-            "title": "Script for installing Mumble Server",
-            "description": "This script intends to install Mumble Server onto BrainyPi.",
+            "title": "Mumble Server",
+            "description": "Mumble is a free, open source, low latency, VoIP, high quality voice chat application.",
             "thumbnail": "img/default-image.png",
             "link": "docs/projects/48904"
         },
         {
-            "title": "Script for installing Plex",
-            "description": "This bash script intends to install Plex onto BrainyPi.",
+            "title": "Plex",
+            "description": "Lets you tune in to live TV on anytime, on almost any device—no hardware required.",
             "thumbnail": "img/default-image.png",
             "link": "docs/projects/48897"
         },
         {
-            "title": "Script for installing Grafana",
-            "description": "This script intends to install Grafana onto BrainyPi.",
+            "title": "Grafana",
+            "description": "Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share beautiful dashboards with your team and foster a data driven culture.",
             "thumbnail": "img/default-image.png",
             "link": "docs/projects/48899"
         },
         {
-            "title": "Script for installing Gogs",
-            "description": "This script intends to install Gogs onto BrainyPi.",
+            "title": "Gogs",
+            "description": "Gogs aims to build a simple, stable and extensible self-hosted Git service that can be set up easily. This can be done with independent binary distribution across all platforms that Go supports, Linux, macOS, Windows and ARM-based systems.",
             "thumbnail": "img/default-image.png",
             "link": "docs/projects/48906"
         },
         {
-            "title": "Script for installing Pi-Apps",
-            "description": "This script intends to install Pi-Apps onto BrainyPi.",
+            "title": "Pi-Apps",
+            "description": "There is no centralized software repository, except for the apt repositories which lack many desktop applications. Pi-Apps is a well-maintained collection of app installation-scripts that you can run with one click.",
             "thumbnail": "img/default-image.png",
             "link": "docs/projects/48901"
         },
         {
-            "title": "Script for installing Syncthing",
-            "description": "This script intends to install Syncthing onto BrainyPi.",
+            "title": "Syncthing",
+            "description": "Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.",
             "thumbnail": "img/default-image.png",
             "link": "docs/projects/48907"
         },
         {
-            "title": "Script for installing POS Vault",
-            "description": "This bash script intends to install POS Vault onto BrainyPi.",
+            "title": "POS Vault",
+            "description": "This PoS software is made for micro, small and medium businesses. It is modified to work with single-board computers as the Raspberry pi by making use of the GPIO interface, giving options and IoT functions not possible with common devices.",
             "thumbnail": "img/default-image.png",
             "link": "docs/projects/48896"
         },
         {
-            "title": "Script for installing Netatalk",
-            "description": "This script intends to install Netatalk (implementation of Apple NAS) onto BrainyPi.",
+            "title": "Netatalk",
+            "description": "Netatalk is a freely-available Open Source AFP fileserver. A UNIX, Linux or BSD system running Netatalk is capable of serving many Macintosh clients simultaneously as an AppleShare file server (AFP).",
             "thumbnail": "img/default-image.png",
             "link": "docs/projects/48908"
         },
         {
-            "title": "Script for installing an Email server",
-            "description": "This script intends to install an Email server onto BrainyPi.",
+            "title": "Email server",
+            "description": "Email, collaboration, groupware, and content management up and running in minutes, on your own hardware or in the cloud.",
             "thumbnail": "img/default-image.png",
             "link": "docs/projects/48902"
         },
         {
-            "title": "Script for installing PiHole",
-            "description": "This bash script intends to install PiHole onto BrainyPi.",
+            "title": "Pi-hole",
+            "description": "The Pi-hole is a DNS sinkhole that protects your devices from unwanted content without installing any client-side software.",
             "thumbnail": "img/default-image.png",
             "link": "docs/projects/48883"
         }
