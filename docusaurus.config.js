@@ -8,7 +8,7 @@ module.exports = {
     url: 'https://brainypi.github.io',
     baseUrl: '/brainypi-projects-showcase/',
     favicon: 'img/favicon.ico',
-    organizationName: 'brainypi.github.io', // Usually your GitHub org/user name.
+    organizationName: 'brainypi', // Usually your GitHub org/user name.
     projectName: 'brainypi-projects-showcase', // Usually your repo name.
     trailingSlash: false,
     onBrokenLinks: 'warn',
