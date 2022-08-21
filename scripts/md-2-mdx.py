@@ -4,10 +4,13 @@ import json
 
 TOKEN = os.environ.get('TOKEN', "")
 
+IMAGE_DWN_URL = "https://gitlab.iotiot.in/interns-projects/core-internship-22/brnpi-compatibility"
+
 CURR_PATH = os.getcwd()
 JSON_OUT_PATH = CURR_PATH + "/src/pages/index-data.json"
 IN_DIR_PATH = CURR_PATH + "/docs/raw/"
 OUT_DIR_PATH = CURR_PATH + "/docs/projects/"
+IMG_DIR_PATH = CURR_PATH + "/static/img/"
 
 def md2mdx(in_filepath, out_filepath, filename):
     title = ""
@@ -50,6 +53,22 @@ def md2mdx(in_filepath, out_filepath, filename):
                 parsedLine = parsedLine.strip('.')
                 parsedLine = parsedLine.strip()
                 origLink = parsedLine
+            elif line.find('Image') > 0:
+                #content.append(line)
+                line = line.strip('\n')
+                parsedLine = line[line.find(':') + 1:]
+                parsedLine = parsedLine.strip('*')
+                parsedLine = parsedLine.strip('.')
+                parsedLine = parsedLine.strip()
+                parsedLine = parsedLine[parsedLine.find('(') + 1:]
+                parsedLine = parsedLine[:parsedLine.find(')')]
+
+                cmd = "wget " + IMAGE_DWN_URL + parsedLine + " -O " + IMG_DIR_PATH + filename.replace('.md', '.png')
+                os.system(cmd)
+
+                thumbnail = "img/" + filename.replace('.md', '.png')
+
+                content.append("<img alt=\"Oops!, No Image to display.\" src={useBaseUrl('" + thumbnail + "')} width=\"200\" />")
             else:
                 content.append(line)
 
@@ -69,6 +88,9 @@ def md2mdx(in_filepath, out_filepath, filename):
         mdxFile.write("image: %s\n" % thumbnail);
         mdxFile.write("keywords: %s\n" % tags);
         mdxFile.write("---\n\n\n");
+        mdxFile.write("import useBaseUrl from '@docusaurus/useBaseUrl';");
+        mdxFile.write("\n\n\n");
+        
         mdxFile.writelines(content)
 
         mdxFile.close()
@@ -109,3 +131,8 @@ if str(TOKEN):
     gitlab2raw()
 
 forAllmdFilesInDir()
+
+# Cleanup 
+
+os.system("rm -rf " + IN_DIR_PATH + "*")
+os.system("touch " + IN_DIR_PATH + ".keep")
