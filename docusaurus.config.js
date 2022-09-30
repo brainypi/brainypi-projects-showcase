@@ -18,7 +18,7 @@ module.exports = {
         announcementBar: {
             id: 'announcementBar-2',
             content:
-            '<span style=" font-size:16pt;"><b>To be launched on 15th August 22</b></span>',
+            '<span style=" font-size:16pt;"><b>To be launched by Nov 22</b></span>',
             isCloseable: false,
             backgroundColor: '#b6d0b9',
             textColor: '#091E42',
