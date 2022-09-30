@@ -23,12 +23,15 @@ def md2mdx(in_filepath, out_filepath, filename):
 
     with open(in_filepath) as file:
         for line in file.readlines():
+            print(file)
             if line.find('Title') > 0:
                 line = line.strip('\n')
                 parsedLine = line.split(':')[1]
                 parsedLine = parsedLine.strip('#')
                 parsedLine = parsedLine.strip()
                 title = parsedLine
+            elif line.find('assigned') > 0:
+                continue
             elif line.find('Description') > 0:
                 content.append(line)
                 line = line.strip('\n')
@@ -53,6 +56,9 @@ def md2mdx(in_filepath, out_filepath, filename):
                 parsedLine = parsedLine.strip('.')
                 parsedLine = parsedLine.strip()
                 origLink = parsedLine
+            else:
+                content.append(line)
+            """
             elif line.find('Image') > 0:
                 #content.append(line)
                 line = line.strip('\n')
@@ -69,8 +75,8 @@ def md2mdx(in_filepath, out_filepath, filename):
                 thumbnail = "img/" + filename.replace('.md', '.png')
 
                 content.append("<img alt=\"Oops!, No Image to display.\" src={useBaseUrl('" + thumbnail + "')} width=\"200\" />")
-            else:
-                content.append(line)
+            """
+
 
     if title:
         json['title'] = title
@@ -117,8 +123,8 @@ def gitlab2raw():
     gl = gitlab.Gitlab(url='https://gitlab.iotiot.in', private_token=TOKEN)
 
     project = gl.projects.get(4185)
-    issue = project.issues.get(50)
-    notes = issue.notes.list()
+    issue = project.issues.get(62)
+    notes = issue.notes.list(get_all=True)
 
     for note in notes:
         i_note = issue.notes.get(note.id)
