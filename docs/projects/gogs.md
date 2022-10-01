@@ -1,8 +1,8 @@
 ---
-id: 49687
-title: Implement Gogs on Brainy Pi
-description: Implement Gogs on Brainy Pi
-image: img/default-image.png
+id: gogs
+title: Personal Git server on BrainyPi
+description: Personal Git server on BrainyPi
+image: img/gogs.png
 keywords: ['Open Source', 'build a simple', 'stable and extensible self-hosted Git service that can be set up in the most painless way']
 ---
 
@@ -11,12 +11,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 
-
 **Description:** Gogs aims to build a simple, stable and extensible self-hosted Git service that can be set up easily. This can be done with independent binary distribution across all platforms that Go supports, Linux, macOS, Windows and ARM-based systems.
 
-**Image:** Should be in insta format.
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/gogs.png')} width="200" />
 
-**Steps to install:-**
+**Steps to Install:**
 
 1. Copy and paste the following lines into a terminal:
    
@@ -65,4 +64,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Link to original project:** https://github.com/gogs/gogs
 
-**Link to Youtube Video:** 
+**Link to Youtube Video:** <!-- Link to the Youtube video. -->

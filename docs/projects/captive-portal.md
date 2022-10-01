@@ -1,9 +1,9 @@
 ---
-id: 49667
-title: Captive Portal on Brainy Pi
-description: Captive Portal on Brainy Pi
-image: img/default-image.png
-keywords: ['To separate network among users', 'liability protection', 'Marketing and Business recognition', 'limits on data usage', 'used in some firms to offer free Wi-Fi hot spots for the internet users']
+id: captive-portal
+title: Captive Portal on BrainyPi
+description: Captive Portal on BrainyPi
+image: img/captive-portal.png
+keywords: ['Wifi-Hotspot', 'Caffe Wifi', 'College Wifi', 'marketing']
 ---
 
 
@@ -11,12 +11,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 
-
 **Description:** A Captive Portal is a web page that the user of a public-access network is obliged to view and interact with before access is granted.
 
-**Image:** Should be in insta format.
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/captive-portal.png')} width="200" />
 
-**Steps to install**
+**Steps to Install:**
 
 1. Update the OS using below commands before installing captive software by 
    just copy pasting the following lines into a terminal:
@@ -79,8 +78,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   ```
 4. Installation will be completed.  
 
-**Useful for:** To separate network among users, liability protection, Marketing and Business recognition, limits on data usage ,used in some firms to offer free Wi-Fi hot spots for the internet users.  
+**Useful for:** Wifi-Hotspot, Caffe Wifi, College Wifi, marketing 
 
-**Link to Original Project:** https://github.com/nodogsplash/nodogsplash.git
+**Link to original project:**  https://github.com/nodogsplash/nodogsplash.git
 
-**Link to Youtube Video:** 
+**Link to Youtube Video:** <!-- Link to the Youtube video. -->

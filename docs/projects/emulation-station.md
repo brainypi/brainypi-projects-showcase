@@ -1,9 +1,9 @@
 ---
-id: 49685
-title: Implement EmulationStation on Brainy Pi.
-description: Implement EmulationStation on Brainy Pi.
-image: img/default-image.png
-keywords: ['games']
+id: emulation-station
+title: Retro Gaming on BrainyPi
+description: Retro Gaming on BrainyPi
+image: img/emulation-station.png
+keywords: ['retro gaming']
 ---
 
 
@@ -13,9 +13,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Description:** EmulationStation is a frontend for emulators, which gives a graphical interface for accessing all of your games. It is a core part of RetroPie and is what lets you sort and configure games. Using EmulationStation on Brainy Pi we can start building own alternative to RetroPie.
 
-**Image:** Should be in insta format.
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/emulation-station.png')} width="200" />
 
-**Steps to install**
+**Steps to Install:**
 
 1. Copy and paste the following lines into a terminal:
 
@@ -47,8 +47,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 7. Installation will be done.
 
-**Useful for:** games
 
-**Link to Original project:** https://github.com/RetroPie/EmulationStation.git
+**Useful for:** retro gaming
 
-**Link to Youtube Video:** 
+**Link to original project:**  https://github.com/RetroPie/EmulationStation.git
+
+**Link to Youtube Video:** <!-- Link to the Youtube video. -->

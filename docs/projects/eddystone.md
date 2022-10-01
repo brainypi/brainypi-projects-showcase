@@ -1,8 +1,8 @@
 ---
-id: 49926
-title: Implement Eddystone on Brainy Pi
-description: Implement Eddystone on Brainy Pi
-image: img/default-image.png
+id: eddystone
+title: BLE beacon using Eddystone
+description: BLE beacon using Eddystone
+image: img/eddystone.png
 keywords: ['Advertising', 'indoor navigation', 'notification and interaction']
 ---
 
@@ -13,9 +13,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Description:** Eddystone is an open beacon protocol developed by Google that allows beacons to send radio signals with a webpage address (URL) to any mobile device.
 
-**Image:** Should be in insta format.
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/eddystone.png')} width="200" />
 
-**Steps to install:-**
+**Steps to Install:**
+
 1. Update the packages using below command if it is not up to date:
 
    ```
@@ -36,8 +37,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 4. You can generate a command to broadcast URL of your choice as an Eddystone beacon by 
    utilizing the script by going to the [Yencarnacion’s Eddystone Calculator](https://yencarnacion.github.io/eddystone-url-calculator/) and type your URL into the textbox and press `ENTER`.
 
-**Useful for :** Advertising, indoor navigation, notification and interaction.
+**Useful for:** Advertising, indoor navigation, notification and interaction.
 
 **Link to original project:** https://github.com/google/eddystone
 
-**Link to Youtube Video:** 
+**Link to Youtube Video:** <!-- Link to the Youtube video. -->

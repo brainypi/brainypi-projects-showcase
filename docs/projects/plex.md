@@ -1,8 +1,8 @@
 ---
-id: 49672
-title: Implement Plex on Brainy Pi
-description: Implement Plex on Brainy Pi
-image: img/default-image.png
+id: plex
+title: Media Server on BrainyPi
+description: Media Server on BrainyPi
+image: img/plex.png
 keywords: ['free tv', 'live tv', 'movies', 'series', 'media']
 ---
 
@@ -11,12 +11,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 
- 
 **Description:** Plex is a client-server setup where the client directly streams data from the Plex media server. As a result we can have all our movies, music, and photos located on this one device, the server. We will be using the Brainy Pi to achieve this.
 
-**Image:** Should be in insta format.
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/plex.png')} width="200" />
 
-**Steps to install**
+**Steps to Install:**
 
 1. Just copy and paste the following lines into a terminal to upgrade all the packages.
 
@@ -77,4 +76,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Link to original project:** https://github.com/plexinc
 
-**Link to Youtube Video:** 
+**Link to Youtube Video:** <!-- Link to the Youtube video. -->

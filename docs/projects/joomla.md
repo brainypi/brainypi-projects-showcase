@@ -1,8 +1,8 @@
 ---
-id: 49679
-title: To Implement Joomla on Brainy Pi
-description: To Implement Joomla on Brainy Pi
-image: img/default-image.png
+id: joomla
+title: Content Management System on BrainyPi
+description: Content Management System on BrainyPi
+image: img/joomla.png
 keywords: ['Publishing web contents', 'flexible', 'ease of use']
 ---
 
@@ -11,13 +11,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 
+**Description:** Joomla is a popular open-source content management system that allows you to publish your web content easily. It is very flexible as it helps to manage different types of web content.
 
-**Description:**
-Joomla is a popular open-source content management system that allows you to publish your web content easily. It is very flexible as it helps to manage different types of web content.
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/joomla.png')} width="200" />
 
-**Image:** Should be in insta format.
-
-**Steps to install**
+**Steps to Install:**
 
 1. Just copy and paste the following lines into a terminal:
 
@@ -195,4 +193,4 @@ sudo chown -R www-data:www-data /var/www/joomla*
 
 **Link to original project:** https://github.com/joomla
 
-**Link to Youtube Video:** 
+**Link to Youtube Video:** <!-- Link to the Youtube video. -->

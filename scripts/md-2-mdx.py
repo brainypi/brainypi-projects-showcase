@@ -11,6 +11,8 @@ JSON_OUT_PATH = CURR_PATH + "/src/pages/index-data.json"
 IN_DIR_PATH = CURR_PATH + "/docs/raw/"
 OUT_DIR_PATH = CURR_PATH + "/docs/projects/"
 IMG_DIR_PATH = CURR_PATH + "/static/img/"
+IN_DIR_RM_PATH = CURR_PATH + "/docs/raw"
+UPLOAD_DIR = CURR_PATH + "/docs/raw/uploads/"
 
 def md2mdx(in_filepath, out_filepath, filename):
     title = ""
@@ -23,7 +25,6 @@ def md2mdx(in_filepath, out_filepath, filename):
 
     with open(in_filepath) as file:
         for line in file.readlines():
-            print(file)
             if line.find('Title') > 0:
                 line = line.strip('\n')
                 parsedLine = line.split(':')[1]
@@ -56,9 +57,6 @@ def md2mdx(in_filepath, out_filepath, filename):
                 parsedLine = parsedLine.strip('.')
                 parsedLine = parsedLine.strip()
                 origLink = parsedLine
-            else:
-                content.append(line)
-            """
             elif line.find('Image') > 0:
                 #content.append(line)
                 line = line.strip('\n')
@@ -69,14 +67,14 @@ def md2mdx(in_filepath, out_filepath, filename):
                 parsedLine = parsedLine[parsedLine.find('(') + 1:]
                 parsedLine = parsedLine[:parsedLine.find(')')]
 
-                cmd = "wget " + IMAGE_DWN_URL + parsedLine + " -O " + IMG_DIR_PATH + filename.replace('.md', '.png')
-                os.system(cmd)
+                #cmd = "wget " + IMAGE_DWN_URL + parsedLine + " -O " + IMG_DIR_PATH + filename.replace('.md', '.png')
+                #os.system(cmd)
 
                 thumbnail = "img/" + filename.replace('.md', '.png')
 
-                content.append("<img alt=\"Oops!, No Image to display.\" src={useBaseUrl('" + thumbnail + "')} width=\"200\" />")
-            """
-
+                content.append("<img alt=\"Oops!, No Image to display.\" src={useBaseUrl('" + thumbnail + "')} width=\"200\" />\n")
+            else:
+                content.append(line)
 
     if title:
         json['title'] = title
@@ -104,41 +102,29 @@ def md2mdx(in_filepath, out_filepath, filename):
 
 
 def forAllmdFilesInDir():
-    fileList = os.listdir(IN_DIR_PATH)
-
+    files = [ f for f in os.listdir(IN_DIR_PATH) if os.path.isfile(os.path.join(IN_DIR_PATH,f)) ]
     indexData = {}
     projectList = []
 
-    for file in fileList:
-        fileJson = md2mdx(IN_DIR_PATH + file, OUT_DIR_PATH + file, file)
-        if "title" in fileJson:
-            projectList.append(fileJson)
+    for file in files:
+        if file.find('.md') > 0:
+            print("Processing file: %s .." % file)
+            fileJson = md2mdx(IN_DIR_PATH + file, OUT_DIR_PATH + file, file)
+            if "title" in fileJson:
+                projectList.append(fileJson)
+                print("\033[1;32;48m Success:\033[1;37;0m File: %s processed successfully." % file)
+            else:
+                print("\033[1;33;48m Warning:\033[1;37;0m File: %s does not contain 'Title', skipping the file." % file)
 
     indexData['projectList'] = projectList
 
     with open(JSON_OUT_PATH, 'w+', encoding='utf-8') as f:
         json.dump(indexData, f, ensure_ascii=False, indent=4)
 
-def gitlab2raw():
-    gl = gitlab.Gitlab(url='https://gitlab.iotiot.in', private_token=TOKEN)
-
-    project = gl.projects.get(4185)
-    issue = project.issues.get(62)
-    notes = issue.notes.list(get_all=True)
-
-    for note in notes:
-        i_note = issue.notes.get(note.id)
-        file_name = IN_DIR_PATH + str(note.id) + ".md"
-        rawFile = open(file_name, 'w+')
-        rawFile.writelines(i_note.body)
-        rawFile.close()
-
-if str(TOKEN):
-    gitlab2raw()
-
 forAllmdFilesInDir()
 
-# Cleanup 
+# Copy images 
+os.system("cp -ar " + UPLOAD_DIR + "* " + IMG_DIR_PATH)
 
-os.system("rm -rf " + IN_DIR_PATH + "*")
-os.system("touch " + IN_DIR_PATH + ".keep")
+# Cleanup 
+os.system("rm -rf " + IN_DIR_RM_PATH)

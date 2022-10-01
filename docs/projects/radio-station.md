@@ -1,8 +1,8 @@
 ---
-id: 49694
-title: Implement Internet radio station on Brainy Pi
-description: Implement Internet radio station on Brainy Pi
-image: img/default-image.png
+id: radio-station
+title: <!-- Describe the project in 1 sentence -->
+description: <!-- Describe the project in 1 sentence -->
+image: img/radio-station.png
 keywords: ['audio/video streaming server', 'radio', 'supports mp3']
 ---
 
@@ -11,14 +11,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 
-**Description:**  
-* Icecast is an audio/video streaming media server that can be used to create everything 
-  from Internet radio stations to privately running music playlists. 
-* DarkIce is a live audio streamer capable of recording audio from an audio interface (e.g., a sound card), encodes the audio, and sends it to a streaming server.
+**Description:** Icecast is an audio/video streaming media server that can be used to create everything 
+  from Internet radio stations to privately running music playlists. DarkIce is a live audio streamer capable of recording audio from an audio interface (e.g., a sound card), encodes the audio, and sends it to a streaming server.
 
-**Image:** Should be in insta format.
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/radio-station.png')} width="200" />
 
-**Steps to install:-**
+**Steps to Install:**
 
 1. Copy and paste the following lines into a terminal:
 
@@ -112,4 +110,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Link to original project:** https://github.com/xiph/Icecast-Server
 
-**Link to Youtube Video:** 
+**Link to Youtube Video:** <!-- Link to the Youtube video. -->

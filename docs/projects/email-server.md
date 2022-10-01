@@ -1,8 +1,8 @@
 ---
-id: 49684
-title: Implement Email server on Brainy Pi.
-description: Implement Email server on Brainy Pi.
-image: img/default-image.png
+id: email-server
+title: Personal Email server on Brainypi
+description: Personal Email server on Brainypi
+image: img/email-server.png
 keywords: ['Email', 'collaboration', 'groupware', 'and content management - up and running in minutes', 'on your own hardware or in the cloud', 'low cost']
 ---
 
@@ -11,11 +11,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 
-**Description:**  We will be using Citadel software package to implement email server on Brainy Pi.It is an easy to set up, powerful yet versatile mailing server which does not require extensive configuration to get it up and running. It is 100% open source software.
+**Description:** We will be using Citadel software package to implement email server on Brainy Pi.It is an easy to set up, powerful yet versatile mailing server which does not require extensive configuration to get it up and running. It is 100% open source software.
 
-**Image:** Should be in insta format.
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/email-server.png')} width="200" />
 
-**Steps to install**
+**Steps to Install:**
 
 1. Copy and paste the following lines into the terminal:
 
@@ -51,4 +51,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Link to original project:** https://www.citadel.org/source.html
 
-**Link to Youtube Video:** 
+**Link to Youtube Video:** <!-- Link to the Youtube video. -->

@@ -1,9 +1,9 @@
 ---
-id: 49691
-title: Ebook server
-description: Ebook server
-image: img/default-image.png
-keywords: ['php server for ebooks', 'pdf etc']
+id: ebook-server
+title: Store Ebooks on BrainyPi
+description: Store Ebooks on BrainyPi
+image: img/ebook-server.png
+keywords: ['ebooks', 'server', 'personal', 'manage books']
 ---
 
 
@@ -11,12 +11,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 
+**Description:** COPS (Calibre OPDS (and HTML) PHP Server) software acts as a web interface on our Brainy Pi where we can access all our eBooks either through its web interface or by downloading them directly from your Brainy Pi to your devices.
 
-**Description:**  COPS (Calibre OPDS (and HTML) PHP Server) software acts as a web interface on our Brainy Pi where we can access all our eBooks either through its web interface or by downloading them directly from your Brainy Pi to your devices.
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/ebook-server.png')} width="200" />
 
-**Image:** Should be in insta format.
-
-**Steps to install:-**
+**Steps to Install:**
 
 1. Copy and paste the following lines into a terminal:
 
@@ -63,8 +62,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
  
 4. Installation of software will be completed.
 
-**Useful for:** php server for ebooks, pdf etc.
+**Useful for:** ebooks, server, personal, manage books
 
 **Link to original project:** https://github.com/seblucas/cops
 
-**Link to Youtube Video:** 
+**Link to Youtube Video:** <!-- Link to the Youtube video. -->

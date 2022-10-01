@@ -1,8 +1,8 @@
 ---
-id: 49688
-title: Implement Syncthing on Brainy Pi.
-description: Implement Syncthing on Brainy Pi.
-image: img/default-image.png
+id: syncthing
+title: Sync files between devices
+description: Sync files between devices
+image: img/syncthing.png
 keywords: ['Open Source', 'continuous file synchronization program', 'synchronizes files between two or more computers in real time', 'safely']
 ---
 
@@ -11,11 +11,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 
-**Description:** Syncthing is a software designed to synchronize files between multiple devices including Raspberry Pi. Data is synchronized between nodes using TLS. This encryption  provides  security and privacy. 
+**Description:** Syncthing is a software designed to synchronize files between multiple devices including Brainy Pi. Data is synchronized between nodes using TLS. This encryption  provides  security and privacy. 
 
-**Image:**  Should be in insta format.
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/syncthing.png')} width="200" />
 
-**Steps to install:-**
+**Steps to Install:**
 
 1. Copy and paste the following lines into a terminal:
 
@@ -42,4 +42,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Link to original project:** https://github.com/syncthing/
 
-**Link to Youtube Video:** 
+**Link to Youtube Video:** <!-- Link to the Youtube video. -->

@@ -1,8 +1,8 @@
 ---
-id: 49686
-title: Implement Mumble Server on Brainy Pi
-description: Implement Mumble Server on Brainy Pi
-image: img/default-image.png
+id: mumble-server
+title: Low Cost VoIP calls on BrainyPi
+description: Low Cost VoIP calls on BrainyPi
+image: img/mumble-server.png
 keywords: ['Open Source', 'Low Latency', 'High Quality Voice Chat']
 ---
 
@@ -13,9 +13,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Description:** Mumble is a free, open source, low latency, VoIP, high quality voice chat application.
 
-**Image:** Should be in insta format.
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/mumble-server.png')} width="200" />
 
-**Steps to install:-**
+**Steps to Install:**
 
 1. Copy and paste the following lines into the terminal:
 
@@ -42,6 +42,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Useful for:** Open Source, Low Latency, High Quality Voice Chat
 
+
 **Link to original project:** https://github.com/mumble-voip/mumble
 
 **Link to Youtube Video:** 
+
+**Link to Youtube Video:** <!-- Link to the Youtube video. -->

@@ -1,8 +1,8 @@
 ---
-id: 49905
-title: Implement Sysmon on Brainy Pi
-description: Implement Sysmon on Brainy Pi
-image: img/default-image.png
+id: sysmon
+title: System Montior on BrainyPi
+description: System Montior on BrainyPi
+image: img/sysmon.png
 keywords: ['user friendly system management tool', 'used in headless setup of single board computers', 'servers with lower system specifications etc']
 ---
 
@@ -11,14 +11,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 
-**Description:**
- Sysmon is a tool used to monitor system performance and manage tasks which is remotely-accessible  for servers and headless single board computer setups.
+**Description:** Sysmon is a tool used to monitor system performance and manage tasks which is remotely-accessible  for servers and headless single board computer setups.
 
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/sysmon.png')} width="200" />
 
-**Image:** Should be in insta format.
-
-**Steps to install:-**
-
+**Steps to Install:**
 1. Copy paste the below command to install and upgrade virtualenv.
 
    ```
@@ -66,4 +63,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Link to original project:** https://github.com/t0xic0der/sysmon
 
-**Link to Youtube Video:** 
+**Link to Youtube Video:** <!-- Link to the Youtube video. -->

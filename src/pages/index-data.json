@@ -1,130 +1,118 @@
 {
     "projectList": [
         {
-            "title": "Captive Portal on Brainy Pi",
-            "description": "A Captive Portal is a web page that the user of a public-access network is obliged to view and interact with before access is granted.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49667"
+            "title": "Sync files between devices",
+            "description": "Syncthing is a software designed to synchronize files between multiple devices including Brainy Pi. Data is synchronized between nodes using TLS. This encryption  provides  security and privacy.",
+            "thumbnail": "img/syncthing.png",
+            "link": "docs/projects/syncthing"
         },
         {
-            "title": "Captive Portal on Brainy Pi",
-            "description": "A Captive Portal is a web page that the user of a public-access network is obliged to view and interact with before access is granted.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49680"
-        },
-        {
-            "title": "POS on Brainy Pi",
-            "description": "PoS software made for micro, small and medium businesses.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49668"
-        },
-        {
-            "title": "Pi-hole on Brainy Pi",
-            "description": "The Pi-hole is a DNS sinkhole that protects your devices from unwanted content without installing any client-side software.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49666"
-        },
-        {
-            "title": "Ebook server",
-            "description": "COPS (Calibre OPDS (and HTML) PHP Server) software acts as a web interface on our Brainy Pi where we can access all our eBooks either through its web interface or by downloading them directly from your Brainy Pi to your devices.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49691"
-        },
-        {
-            "title": "Pi-Apps on Brainy Pi",
-            "description": "Pi-Apps is a well-maintained collection of app installation-scripts that you can run with one click as is no centralized software repository, except for the apt repositories which lack many desktop applications.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49683"
-        },
-        {
-            "title": "Prometheus on Brainy Pi.",
-            "description": "Prometheus is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts when specified conditions are observed.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49682"
-        },
-        {
-            "title": "Syncthing on Brainy Pi.",
-            "description": "Syncthing is a software designed to synchronize files between multiple devices including Raspberry Pi. Data is synchronized between nodes using TLS. This encryption  provides  security and privacy.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49688"
-        },
-        {
-            "title": "Internet radio station on Brainy Pi",
-            "description": "Audio/Video streaming media server that can be used to create everything from Internet radio stations to privately running music playlists.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49694"
-        },
-        {
-            "title": "IRC server on Brainy Pi",
-            "description": "A high-performance, light weighted internet relay chat daemon. Designed to be fast and reliable. Powering IRC networks since 1997.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49692"
-        },
-        {
-            "title": "Apple NAS on Brainy Pi.",
-            "description": "The Apple Filing Protocol is Apple’s proprietary network protocol for delivering files over a network. Netatalk is a freely-available Open Source AFP fileserver. A UNIX, Linux or BSD system running Netatalk is capable of serving many Macintosh clients simultaneously as an AppleShare file server (AFP).",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49689"
-        },
-        {
-            "title": "Plex on Brainy Pi",
+            "title": "Media Server on BrainyPi",
             "description": "Plex is a client-server setup where the client directly streams data from the Plex media server. As a result we can have all our movies, music, and photos located on this one device, the server. We will be using the Brainy Pi to achieve this.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49672"
+            "thumbnail": "img/plex.png",
+            "link": "docs/projects/plex"
         },
         {
-            "title": "Sysmon on Brainy Pi",
+            "title": "System Montior on BrainyPi",
             "description": "Sysmon is a tool used to monitor system performance and manage tasks which is remotely-accessible  for servers and headless single board computer setups.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49905"
+            "thumbnail": "img/sysmon.png",
+            "link": "docs/projects/sysmon"
         },
         {
-            "title": "Gogs on Brainy Pi",
-            "description": "Gogs aims to build a simple, stable and extensible self-hosted Git service that can be set up easily. This can be done with independent binary distribution across all platforms that Go supports, Linux, macOS, Windows and ARM-based systems.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49687"
-        },
-        {
-            "title": "Email server on Brainy Pi.",
-            "description": "We will be using Citadel software package to email server on Brainy Pi.It is an easy to set up, powerful yet versatile mailing server which does not require extensive configuration to get it up and running. It is 100% open source software.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49684"
-        },
-        {
-            "title": "Screenly on Brainy Pi",
-            "description": "Screenly OSE (Open Source Edition) is a digital signage software package that allows one to easily manage and display webpages, videos, images etc and make full use of Brainy Pi hardware.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49589"
-        },
-        {
-            "title": "Privoxy on BrainyPi.",
-            "description": "A non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page data and HTTP headers, controlling access, ads and other junk. It has a flexible configuration and can be customized to your needs.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49690"
-        },
-        {
-            "title": "Mumble Server on Brainy Pi",
-            "description": "Mumble is a free, open source, low latency, VoIP, high quality voice chat application.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49686"
-        },
-        {
-            "title": "EmulationStation on Brainy Pi.",
+            "title": "Retro Gaming on BrainyPi",
             "description": "EmulationStation is a frontend for emulators, which gives a graphical interface for accessing all of your games. It is a core part of RetroPie and is what lets you sort and configure games. Using EmulationStation on Brainy Pi we can start building own alternative to RetroPie.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49685"
+            "thumbnail": "img/emulation-station.png",
+            "link": "docs/projects/emulation-station"
         },
         {
-            "title": "Joomla on Brainy Pi",
-            "description": "Joomla is a popular open-source content management system that allows you to publish your web content easily. It is very flexible as it helps to manage different types of web content.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49679"
-        },
-        {
-            "title": "Eddystone on Brainy Pi",
+            "title": "BLE beacon using Eddystone",
             "description": "Eddystone is an open beacon protocol developed by Google that allows beacons to send radio signals with a webpage address (URL) to any mobile device.",
-            "thumbnail": "img/default-image.png",
-            "link": "docs/projects/49926"
+            "thumbnail": "img/eddystone.png",
+            "link": "docs/projects/eddystone"
+        },
+        {
+            "title": "Personal Git server on BrainyPi",
+            "description": "Gogs aims to build a simple, stable and extensible self-hosted Git service that can be set up easily. This can be done with independent binary distribution across all platforms that Go supports, Linux, macOS, Windows and ARM-based systems.",
+            "thumbnail": "img/gogs.png",
+            "link": "docs/projects/gogs"
+        },
+        {
+            "title": "POS on BrainyPi",
+            "description": "IotPoS software is made for micro, small and medium businesses. It is",
+            "thumbnail": "img/pos.png",
+            "link": "docs/projects/pos"
+        },
+        {
+            "title": "Store Ebooks on BrainyPi",
+            "description": "COPS (Calibre OPDS (and HTML) PHP Server) software acts as a web interface on our Brainy Pi where we can access all our eBooks either through its web interface or by downloading them directly from your Brainy Pi to your devices.",
+            "thumbnail": "img/ebook-server.png",
+            "link": "docs/projects/ebook-server"
+        },
+        {
+            "title": "AppleShare on BrainyPi",
+            "description": "The Apple Filing Protocol is Apple’s proprietary network protocol for delivering files over a network. Netatalk is a freely-available Open Source AFP fileserver. A UNIX, Linux or BSD system running Netatalk is capable of serving many Macintosh clients simultaneously as an AppleShare file server (AFP).",
+            "thumbnail": "img/apple-nas.png",
+            "link": "docs/projects/apple-nas"
+        },
+        {
+            "title": "Install popular apps with one click. (Pi-Apps)",
+            "description": "There is no centralized software repository, except for the apt repositories which lack many desktop applications. Pi-Apps is a well-maintained collection of app installation-scripts that you can run with one click.",
+            "thumbnail": "img/pi-apps.png",
+            "link": "docs/projects/pi-apps"
+        },
+        {
+            "title": "Captive Portal on BrainyPi",
+            "description": "A Captive Portal is a web page that the user of a public-access network is obliged to view and interact with before access is granted.",
+            "thumbnail": "img/captive-portal.png",
+            "link": "docs/projects/captive-portal"
+        },
+        {
+            "title": "Digital Signage on Brainy Pi",
+            "description": "Screenly OSE (Open Source Edition) is a digital signage software package that allows one to easily manage and display webpages, videos, images etc and make full use of Brainy Pi hardware.",
+            "thumbnail": "img/screenly.png",
+            "link": "docs/projects/screenly"
+        },
+        {
+            "title": "Content Management System on BrainyPi",
+            "description": "Joomla is a popular open-source content management system that allows you to publish your web content easily. It is very flexible as it helps to manage different types of web content.",
+            "thumbnail": "img/joomla.png",
+            "link": "docs/projects/joomla"
+        },
+        {
+            "title": "Proxy Server on BrainyPi",
+            "description": "A non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page data and HTTP headers, controlling access, ads and other junk. It has a flexible configuration and can be customized to your needs.",
+            "thumbnail": "img/privoxy.png",
+            "link": "docs/projects/privoxy"
+        },
+        {
+            "title": "Personal IRC Server",
+            "description": "A high-performance, light weighted internet relay chat daemon. Designed to be fast and reliable. Powering IRC networks since 1997.",
+            "thumbnail": "img/irc-server.png",
+            "link": "docs/projects/irc-server"
+        },
+        {
+            "title": "<!-- Describe the project in 1 sentence -->",
+            "description": "Icecast is an audio/video streaming media server that can be used to create everything",
+            "thumbnail": "img/radio-station.png",
+            "link": "docs/projects/radio-station"
+        },
+        {
+            "title": "Network wide Ad-Blocker",
+            "description": "The Pi-hole is a DNS sinkhole that protects your devices from unwanted content without installing any client-side software.",
+            "thumbnail": "img/pi-hole.png",
+            "link": "docs/projects/pi-hole"
+        },
+        {
+            "title": "Low Cost VoIP calls on BrainyPi",
+            "description": "Mumble is a free, open source, low latency, VoIP, high quality voice chat application.",
+            "thumbnail": "img/mumble-server.png",
+            "link": "docs/projects/mumble-server"
+        },
+        {
+            "title": "Personal Email server on Brainypi",
+            "description": "We will be using Citadel software package to implement email server on Brainy Pi.It is an easy to set up, powerful yet versatile mailing server which does not require extensive configuration to get it up and running. It is 100% open source software.",
+            "thumbnail": "img/email-server.png",
+            "link": "docs/projects/email-server"
         }
     ]
 }

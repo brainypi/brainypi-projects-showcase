@@ -1,8 +1,8 @@
 ---
-id: 49690
-title: Implement Privoxy on BrainyPi.
-description: Implement Privoxy on BrainyPi.
-image: img/default-image.png
+id: privoxy
+title: Proxy Server on BrainyPi
+description: Proxy Server on BrainyPi
+image: img/privoxy.png
 keywords: ['Ad blocking', 'access control', 'enhanced privacy']
 ---
 
@@ -11,11 +11,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 
-**Description:** A non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page data and HTTP headers, controlling access, ads and other junk. It has a flexible configuration and can be customized to your needs. 
+**Description:** A non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page data and HTTP headers, controlling access, ads and other junk. It has a flexible configuration and can be customized to your needs.
 
-**Image:** Should be in insta format.
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/privoxy.png')} width="200" />
 
-**Steps to install:-**
+**Steps to Install:**
 
 1. Copy and paste the following lines into a terminal:
 
@@ -53,4 +53,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Link to original project:** https://github.com/unisx/privoxy
 
-**Link to Youtube Video:** 
+**Link to Youtube Video:** <!-- Link to the Youtube video. -->

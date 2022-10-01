@@ -1,8 +1,8 @@
 ---
-id: 49666
-title: Pi-hole on Brainy Pi
-description: Pi-hole on Brainy Pi
-image: img/default-image.png
+id: pi-hole
+title: Network wide Ad-Blocker
+description: Network wide Ad-Blocker
+image: img/pi-hole.png
 keywords: ['ad blocking', 'linux', 'network', 'DNS sinkhole', 'protects devices from unwanted content', 'no client side software']
 ---
 
@@ -11,12 +11,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 
+**Description:** The Pi-hole is a DNS sinkhole that protects your devices from unwanted content without installing any client-side software.
 
-**Description**: The Pi-hole is a DNS sinkhole that protects your devices from unwanted content without installing any client-side software.  
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/pi-hole.png')} width="200" />
 
-**Image:** Should be in insta format.
-
-**Steps to install:-**
+**Steps to Install:**
 
 1. Now run the below command to install Pi-hole quickly and conveniently.  
    `curl -sSL https://install.pi-hole.net | bash` 
@@ -31,4 +30,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Link to Original Project:** https://github.com/pi-hole
 
-**Link to Youtube Video:** 
+**Link to Youtube Video:** <!-- Link to the Youtube video. -->

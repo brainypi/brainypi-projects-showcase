@@ -1,8 +1,8 @@
 ---
-id: 49692
-title: Implement IRC server on Brainy Pi
-description: Implement IRC server on Brainy Pi
-image: img/default-image.png
+id: irc-server
+title: Personal IRC Server
+description: Personal IRC Server
+image: img/irc-server.png
 keywords: ['IRC chat server', 'POSIX based']
 ---
 
@@ -11,10 +11,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 
-
 **Description:** A high-performance, light weighted internet relay chat daemon. Designed to be fast and reliable. Powering IRC networks since 1997. 
 
-**Steps to install:-**
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/irc-server.png')} width="200" />
+
+**Steps to Install:**
 
 1. Just copy and paste the following lines into a terminal:
 
@@ -87,5 +88,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 **Useful for:** IRC chat server, POSIX based.
 
 **Link to original project:** https://github.com/ircd-hybrid/ircd-hybrid
-
-**Link to Youtube Video:** 

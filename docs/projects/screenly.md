@@ -1,9 +1,9 @@
 ---
-id: 49589
-title: Implement Screenly on Brainy Pi
-description: Implement Screenly on Brainy Pi
-image: img/default-image.png
-keywords: ['to upload contents', 'create and schedule playlists on single interface']
+id: screenly
+title: Digital Signage on Brainy Pi
+description: Digital Signage on Brainy Pi
+image: img/screenly.png
+keywords: ['to upload contents', 'create and schedule playlists on single interface', '']
 ---
 
 
@@ -13,9 +13,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Description:** Screenly OSE (Open Source Edition) is a digital signage software package that allows one to easily manage and display webpages, videos, images etc and make full use of Brainy Pi hardware.
 
-**Image:** Should be in insta format.
+<img alt="Oops!, No Image to display." src={useBaseUrl('img/screenly.png')} width="200" />
 
-**Steps to install**
+**Steps to Install:**
+
 
 1. Update your Brainy Pi OS using below commands before installing _Screenly_ Software.  
    `sudo apt update`   
@@ -55,4 +56,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Link to Original Project:** https://github.com/Screenly/screenly-ose.git
 
-**Link to Youtube Video:** 
+**Link to Youtube Video:** <!-- Link to the Youtube video. -->
