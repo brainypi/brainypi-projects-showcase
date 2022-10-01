@@ -3,7 +3,7 @@ id: screenly
 title: Digital Signage on Brainy Pi
 description: Digital Signage on Brainy Pi
 image: img/screenly.png
-keywords: ['to upload contents', 'create and schedule playlists on single interface', '']
+keywords: ['to upload contents', 'create and schedule playlists on single interface']
 ---
 
 
