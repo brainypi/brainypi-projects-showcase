@@ -69,7 +69,7 @@ function Home() {
                         <section class="py-12 sm:py-16 bg-stone-50">
                             <div class="max-w-7xl px-10 mx-auto">
                                 <h2 class="font-bold text-2xl sm:text-center sm:text-4xl lg:text-5xl">Brainy Pi simple Projects showcase</h2>
-                                <p class="text-stone-500 sm:text-center text-base sm:text-xl lg:text-2xl">Brainy Pi comes with ready to deploy Enterprise projects.<br class="lg:hidden hidden sm:block" /></p>
+                                <p class="text-stone-500 sm:text-center text-base sm:text-xl lg:text-2xl">Brainy Pi comes with ready to deploy projects.<br class="lg:hidden hidden sm:block" /></p>
                                 <div class="relative px-4 py-12 sm:px-6 lg:py-16 lg:px-8">
                                     <div class="relative mx-auto max-w-7xl">
                                         <div class="grid max-w-lg gap-5 mx-auto lg:grid-cols-3 lg:max-w-none">

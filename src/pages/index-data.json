@@ -9,49 +9,49 @@
         {
             "title": "Media Server on BrainyPi",
             "description": "Plex is a client-server setup where the client directly streams data from the Plex media server. As a result we can have all our movies, music, and photos located on this one device, the server. We will be using the Brainy Pi to achieve this.",
-            "thumbnail": "img/plex.png",
+            "thumbnail": "img/default-image.png",
             "link": "docs/projects/plex"
         },
         {
             "title": "System Montior on BrainyPi",
             "description": "Sysmon is a tool used to monitor system performance and manage tasks which is remotely-accessible  for servers and headless single board computer setups.",
-            "thumbnail": "img/sysmon.png",
+            "thumbnail": "img/default-image.png",
             "link": "docs/projects/sysmon"
         },
         {
             "title": "Retro Gaming on BrainyPi",
             "description": "EmulationStation is a frontend for emulators, which gives a graphical interface for accessing all of your games. It is a core part of RetroPie and is what lets you sort and configure games. Using EmulationStation on Brainy Pi we can start building own alternative to RetroPie.",
-            "thumbnail": "img/emulation-station.png",
+            "thumbnail": "img/default-image.png",
             "link": "docs/projects/emulation-station"
         },
         {
             "title": "BLE beacon using Eddystone",
             "description": "Eddystone is an open beacon protocol developed by Google that allows beacons to send radio signals with a webpage address (URL) to any mobile device.",
-            "thumbnail": "img/eddystone.png",
+            "thumbnail": "img/default-image.png",
             "link": "docs/projects/eddystone"
         },
         {
             "title": "Personal Git server on BrainyPi",
             "description": "Gogs aims to build a simple, stable and extensible self-hosted Git service that can be set up easily. This can be done with independent binary distribution across all platforms that Go supports, Linux, macOS, Windows and ARM-based systems.",
-            "thumbnail": "img/gogs.png",
+            "thumbnail": "img/default-image.png",
             "link": "docs/projects/gogs"
         },
         {
             "title": "POS on BrainyPi",
             "description": "IotPoS software is made for micro, small and medium businesses. It is",
-            "thumbnail": "img/pos.png",
+            "thumbnail": "img/default-image.png",
             "link": "docs/projects/pos"
         },
         {
             "title": "Store Ebooks on BrainyPi",
             "description": "COPS (Calibre OPDS (and HTML) PHP Server) software acts as a web interface on our Brainy Pi where we can access all our eBooks either through its web interface or by downloading them directly from your Brainy Pi to your devices.",
-            "thumbnail": "img/ebook-server.png",
+            "thumbnail": "img/default-image.png",
             "link": "docs/projects/ebook-server"
         },
         {
             "title": "AppleShare on BrainyPi",
             "description": "The Apple Filing Protocol is Apple’s proprietary network protocol for delivering files over a network. Netatalk is a freely-available Open Source AFP fileserver. A UNIX, Linux or BSD system running Netatalk is capable of serving many Macintosh clients simultaneously as an AppleShare file server (AFP).",
-            "thumbnail": "img/apple-nas.png",
+            "thumbnail": "img/default-image.png",
             "link": "docs/projects/apple-nas"
         },
         {
@@ -69,13 +69,13 @@
         {
             "title": "Digital Signage on Brainy Pi",
             "description": "Screenly OSE (Open Source Edition) is a digital signage software package that allows one to easily manage and display webpages, videos, images etc and make full use of Brainy Pi hardware.",
-            "thumbnail": "img/screenly.png",
+            "thumbnail": "img/default-image.png",
             "link": "docs/projects/screenly"
         },
         {
             "title": "Content Management System on BrainyPi",
             "description": "Joomla is a popular open-source content management system that allows you to publish your web content easily. It is very flexible as it helps to manage different types of web content.",
-            "thumbnail": "img/joomla.png",
+            "thumbnail": "img/default-image.png",
             "link": "docs/projects/joomla"
         },
         {
@@ -87,13 +87,13 @@
         {
             "title": "Personal IRC Server",
             "description": "A high-performance, light weighted internet relay chat daemon. Designed to be fast and reliable. Powering IRC networks since 1997.",
-            "thumbnail": "img/irc-server.png",
+            "thumbnail": "img/default-image.png",
             "link": "docs/projects/irc-server"
         },
         {
             "title": "<!-- Describe the project in 1 sentence -->",
             "description": "Icecast is an audio/video streaming media server that can be used to create everything",
-            "thumbnail": "img/radio-station.png",
+            "thumbnail": "img/default-image.png",
             "link": "docs/projects/radio-station"
         },
         {
@@ -105,13 +105,13 @@
         {
             "title": "Low Cost VoIP calls on BrainyPi",
             "description": "Mumble is a free, open source, low latency, VoIP, high quality voice chat application.",
-            "thumbnail": "img/mumble-server.png",
+            "thumbnail": "img/default-image.png",
             "link": "docs/projects/mumble-server"
         },
         {
             "title": "Personal Email server on Brainypi",
             "description": "We will be using Citadel software package to implement email server on Brainy Pi.It is an easy to set up, powerful yet versatile mailing server which does not require extensive configuration to get it up and running. It is 100% open source software.",
-            "thumbnail": "img/email-server.png",
+            "thumbnail": "img/default-image.png",
             "link": "docs/projects/email-server"
         }
     ]
